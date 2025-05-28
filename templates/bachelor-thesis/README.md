@@ -1,4 +1,4 @@
-# HAW Hamburg Typst Template
+# HSRM Unoffial Typst Template
 
 This is an **`unofficial`** template for writing a bachelor thesis in the `HAW Hamburg` department of `Computer Science` design using [Typst](https://github.com/typst/typst).
 

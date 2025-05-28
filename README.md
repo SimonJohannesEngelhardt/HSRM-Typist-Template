@@ -1,6 +1,6 @@
 # HAW Hamburg Typst Template
 
-This is an **`unofficial`** template for writing a report or thesis in the `HAW Hamburg` department of `Computer Science` design using [Typst](https://github.com/typst/typst).
+This is an **`unofficial`** template for writing a report or thesis in the `HSRM` department of `Computer Science` design using [Typst](https://github.com/typst/typst).
 
 ## Required Fonts
 
@@ -13,7 +13,7 @@ To use this package just add the following code to your [Typst](https://github.c
 ### Report
 
 ```typst
-#import "@preview/haw-hamburg:0.5.1": report
+#import "@preview/hsrm-unofficial-template:0.6.0": report
 
 #show: report.with(
   language: "en",
@@ -28,7 +28,7 @@ To use this package just add the following code to your [Typst](https://github.c
 ### Bachelor Thesis
 
 ```typst
-#import "@preview/haw-hamburg:0.5.1": bachelor-thesis
+#import "@preview/hsrm-unofficial-template:0.6.0": bachelor-thesis
 
 #show: bachelor-thesis.with(
   language: "en",
@@ -54,7 +54,7 @@ To use this package just add the following code to your [Typst](https://github.c
 ### Master Thesis
 
 ```typst
-#import "@preview/haw-hamburg:0.5.1": master-thesis
+#import "@preview/hsrm-unofficial-template:0.6.0": master-thesis
 
 #show: master-thesis.with(
   language: "en",
@@ -72,6 +72,7 @@ To use this package just add the following code to your [Typst](https://github.c
   department: "Computer Science",
   study-course: "Master of Science Computer Science",
   supervisors: ("Prof. Dr. Example", "Prof. Dr. Example"),
+  external-supervisor: "Herr Example",
   submission-date: datetime(year: 1948, month: 12, day: 10),
   include-declaration-of-independent-processing: true,
 )

@@ -1,6 +1,6 @@
-# HAW Hamburg Typst Template
+# HSRM Unoffial Typst Template
 
-This is an **`unofficial`** template for writing a report in the `HAW Hamburg` department of `Computer Science` design using [Typst](https://github.com/typst/typst).
+This is an **`unofficial`** template for writing a report in the `Hochschule Rhein Main` department of `Computer Science` design using [Typst](https://github.com/typst/typst).
 
 ## Required Fonts
 

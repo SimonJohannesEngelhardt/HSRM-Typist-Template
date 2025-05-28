@@ -1,7 +1,7 @@
 [package]
 name = "hsrm-master-thesis"
 entrypoint = "lib.typ"
-description = "Unofficial template for writing a bachelor-thesis in the HAW Hamburg department of Computer Science design."
+description = "Unofficial template for writing a master-thesis in the Hochschule Rhein Main department of Computer Science design. Fork from the HAW-Hamburg template."
 categories = ["thesis"]
 
 [template]

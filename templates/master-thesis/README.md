@@ -1,6 +1,6 @@
-# HAW Hamburg Typst Template
+# HSRM Unoffial Typst Template
 
-This is an **`unofficial`** template for writing a master thesis in the `HAW Hamburg` department of `Computer Science` design using [Typst](https://github.com/typst/typst).
+This is an **`unofficial`** template for writing a master thesis in the `Hochschule Rhein Main` department of `Computer Science` design using [Typst](https://github.com/typst/typst).
 
 ## Required Fonts
 
@@ -11,7 +11,7 @@ To correctly render this template please make sure that the `New Computer Modern
 To use this package just add the following code to your [Typst](https://github.com/typst/typst) document:
 
 ```typst
-#import "@preview/haw-hamburg:0.5.1": master-thesis
+#import "@preview/hsrm-unofficial-template:0.6.0": master-thesis
 
 #show: master-thesis.with(
   language: "en",
@@ -29,6 +29,7 @@ To use this package just add the following code to your [Typst](https://github.c
   department: "Computer Science",
   study-course: "Master of Science Computer Science",
   supervisors: ("Prof. Dr. Example", "Prof. Dr. Example"),
+  external-supervisors
   submission-date: datetime(year: 1948, month: 12, day: 10),
   include-declaration-of-independent-processing: true,
 )

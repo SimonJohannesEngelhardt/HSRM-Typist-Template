@@ -26,7 +26,7 @@ ero, nonummy eget, consectetuer id, vulputate a, magna.",
   faculty: "Design Informatik Medien",
   study-course: "Angewandte Informatik",
   supervisors: ("Prof. Dr. Example", "Prof. Dr. Example"),
-  external-supervisor: ("Herr Example"),
+  external-supervisor: "Herr Example",
   submission-date: datetime(year: 1948, month: 12, day: 10),
   include-declaration-of-independent-processing: true,
 )
