@@ -19,6 +19,7 @@
   department: "",
   study-course: "",
   supervisors: (),
+  external-supervisor: "",
   submission-date: none,
   include-declaration-of-independent-processing: false,
   body,
@@ -167,6 +168,7 @@
     department: department,
     study-course: study-course,
     supervisors: supervisors,
+    external-supervisor: external-supervisor,
     submission-date: submission-date,
   )
 

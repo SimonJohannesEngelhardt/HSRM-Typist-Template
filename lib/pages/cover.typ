@@ -5,13 +5,13 @@
   is-master-thesis: false,
   is-bachelor-thesis: true,
   is-report: false,
-
   title: "",
   author: "",
   faculty: "",
   department: "",
   study-course: "",
   supervisors: (),
+  external-supervisor: "",
   submission-date: none,
 ) = {
   // Set the document's basic properties.
@@ -21,46 +21,49 @@
     number-align: center,
   )
 
-  // HAW Logo
+  // HSRM Logo
   place(
     top + right,
     dx: -13mm,
     dy: 10mm,
-    image("../assets/logo.svg", width: 164pt)
+    image("../assets/hsrm-logo.svg", width: 164pt),
   )
 
   // Title etc.
   pad(
-    left: 57mm,
-    top: 66mm,
-    right: 18mm,
-    stack(
-      // Type
-      if is-thesis {
-        let thesis-title = translations.bachelor-thesis
-        if is-master-thesis {
-          thesis-title = translations.master-thesis
-        }
-        upper(text(thesis-title, size: 9pt, weight: "bold"))
-        v(2mm)
-      },
-      // Author
-      text(author, size: 9pt),
-      v(13mm),
-      // Title
-      par(
-        leading: 9pt,
+    left: 3cm,
+    top: 50mm,
+    right: 3cm,
+    align(
+      center,
+      stack(
+        spacing: 3mm,
+        text("Hochschule Rhein Main", size: 12pt, weight: "bold"),
+        // Faculty
+        text(translations.faculty-of + " " + faculty, size: 12pt),
+        text(translations.study-course + " " + study-course, size: 12pt),
+        v(10mm),
+        // Type
+        if is-thesis {
+          let thesis-title = translations.bachelor-thesis
+          if is-master-thesis {
+            thesis-title = translations.master-thesis
+          }
+          text(thesis-title, size: 12pt, weight: "bold")
+          v(2mm)
+        },
+        text(translations.bachelor-thesis-to-get-bsc, size: 12pt),
+        // Author
+        text(author, size: 10pt),
+
+        v(13mm),
+
+        // Title
         text(title, size: 31pt, weight: 500),
+        v(5mm),
+
       ),
-      v(5mm),
-      line(start: (0pt, 0pt), length: 30pt, stroke: 1mm),
-      v(12mm),
-      // Faculty
-      text(translations.faculty-of + " " + faculty, size: 10pt, weight: "bold"),
-      v(2mm),
-      // Department
-      text(translations.department-of + " " + department, size: 10pt),
-    )
+    ),
   )
 
   // University name text
@@ -74,14 +77,12 @@
         stack(
           line(start: (0pt, 0pt), length: 25pt, stroke: 0.9mm),
           v(3mm),
-          text("HOCHSCHULE FÜR ANGEWANDTE", size: 9pt, weight: "bold"),
+          text("Hochschule für Angewandte", size: 9pt, weight: "bold"),
           v(2mm),
-          text("WISSENSCHAFTEN HAMBURG", size: 9pt, weight: "bold"),
-          v(2mm),
-          text("Hamburg University of Applied Sciences", size: 9pt),
-        )
-      )
-    )
+          text("Wissenschaften Rhein-Main", size: 9pt, weight: "bold"),
+        ),
+      ),
+    ),
   )
 
   if (is-report) {
@@ -93,35 +94,27 @@
       stack(
         // Submission date
         if submission-date != none {
-          text(
-            translations.submitted + ": " + submission-date.display("[day]. [month repr:long] [year]"),
-          )
+          text(translations.submitted + ": " + submission-date.display("[day]. [month repr:long] [year]"))
 
           v(10pt)
         },
 
         // Supervision
         if supervisors.len() > 0 and type(supervisors) != array {
-          text(
-            translations.supervising-examiner + ": " + text(upper(supervisors))
-          )
+          text(translations.supervising-examiner + ": " + text(upper(supervisors)))
         } else if supervisors.len() > 0 {
           stack(
-            text(
-              translations.supervising-examiner + ": " + text(supervisors.first())
-            ),
+            text(translations.supervising-examiner + ": " + text(supervisors.first())),
             if supervisors.len() > 1 {
               v(10pt)
-              text(
-                translations.second-examiner + ": " + text(supervisors.at(1))
-              )
-            }
+              text(translations.second-examiner + ": " + text(supervisors.at(1)))
+            },
           )
         },
-      )
+      ),
     )
   }
-  
+
 
   if is-thesis {
     // Second cover page
@@ -166,7 +159,6 @@
           text(translations.master-thesis-submitted-for-examination-in-masters-degree)
         },
         text(translations.in-the-study-course + " " + text(study-course, style: "italic")),
-        text(translations.at-the-department + " " + department),
         text(translations.at-the-faculty-of + " " + faculty),
         text(translations.at-university-of-applied-science-hamburg),
       ),
@@ -187,8 +179,13 @@
             text(translations.second-examiner + ": " + text(upper(supervisors.at(1)), weight: "bold"), size: 10pt)
           }
         }
+        if external-supervisor.len() > 0 {
+          linebreak()
+          text(translations.external-supervisor + ": " + text(upper(external-supervisor), weight: "bold"), size: 10pt)
+        }
       },
-    
+
+
       // Submission date
       if submission-date != none {
         stack(

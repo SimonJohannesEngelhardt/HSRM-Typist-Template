@@ -5,7 +5,7 @@
 // to customize this template and discover how it works.
 #import "../../lib/lib.typ": bachelor-thesis
 #show: bachelor-thesis.with(
-  language: "en",
+  language: "de",
 
   title-de: "Antwort auf die endgültige Frage nach dem Leben, dem Universum und dem ganzen Rest",
   keywords-de: ("Leben", "Universum", "Alles"),
@@ -22,10 +22,10 @@ felis. Curabitur dictum gravida mauris. Nam arcu lib
 ero, nonummy eget, consectetuer id, vulputate a, magna.",
 
   author: "The Computer",
-  faculty: "Engineering and Computer Science",
-  department: "Computer Science",
-  study-course: "Bachelor of Science Informatik Technischer Systeme",
+  faculty: "Design Informatik Medien",
+  study-course: "Angewandte Informatik",
   supervisors: ("Prof. Dr. Example", "Prof. Dr. Example"),
+  external-supervisor: ("Herr Example"),
   submission-date: datetime(year: 1948, month: 12, day: 10),
   include-declaration-of-independent-processing: true,
 )

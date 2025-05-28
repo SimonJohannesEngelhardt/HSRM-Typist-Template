@@ -1,5 +1,5 @@
 #let abstract_page(
-  language: "en",
+  language: "de",
   author: "",
   title: "",
   keywords: (),
