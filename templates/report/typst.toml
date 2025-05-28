@@ -1,7 +1,7 @@
 [package]
 name = "hsrm-report"
 entrypoint = "lib.typ"
-description = "Unofficial template for writing a report in the HAW Hamburg department of Computer Science design. Fork from the HAW-Hamburg template."
+description = "Unofficial template for writing a report in the Hochschule Rhein Main department of Computer Science design. Fork from the HAW-Hamburg template."
 categories = ["thesis"]
 
 [template]

@@ -1,6 +1,6 @@
-# HAW Hamburg Typst Template
+# Hochschule Rhein Main Typst Template
 
-This is an **`unofficial`** template for writing a report or thesis in the `HAW Hamburg` department of `Computer Science` design using [Typst](https://github.com/typst/typst).
+This is an **`unofficial`** template for writing a report or thesis in the `Hochschule Rhein Main` department of `Computer Science` design using [Typst](https://github.com/typst/typst).
 
 ## Required Fonts
 
@@ -13,7 +13,7 @@ To use this package just add the following code to your [Typst](https://github.c
 ### Report
 
 ```typst
-#import "@preview/haw-hamburg:0.3.0": report
+#import "@preview/hsrm-unofficial-template:0.6.0": report
 
 #show: report.with(
   language: "en",
@@ -28,7 +28,7 @@ To use this package just add the following code to your [Typst](https://github.c
 ### Bachelor Thesis
 
 ```typst
-#import "@preview/haw-hamburg:0.3.0": bachelor-thesis
+#import "@preview/hsrm-unofficial-template:0.6.0": bachelor-thesis
 
 #show: bachelor-thesis.with(
   language: "en",
@@ -54,7 +54,7 @@ To use this package just add the following code to your [Typst](https://github.c
 ### Master Thesis
 
 ```typst
-#import "@preview/haw-hamburg:0.3.0": master-thesis
+#import "@preview/hsrm-unofficial-template:0.6.0": master-thesis
 
 #show: master-thesis.with(
   language: "en",
@@ -91,8 +91,8 @@ These problems can be avoided by following these steps:
 
 ## Examples
 
-Examples can be found inside of the [examples](https://github.com/LasseRosenow/HAW-Hamburg-Typst-Template/tree/main/examples) directory
+Examples can be found inside of the [examples](https://github.com/SimonJohannesEngelhardt/HSRM-Typist-Template/tree/main/examples) directory
 
-- For Bachelor  theses see: [Bachelor thesis example](https://github.com/LasseRosenow/HAW-Hamburg-Typst-Template/tree/main/examples/bachelor-thesis)
-- For Master theses see: [Master thesis example](https://github.com/LasseRosenow/HAW-Hamburg-Typst-Template/tree/main/examples/master-thesis)
-- For reports see: [Report example](https://github.com/LasseRosenow/HAW-Hamburg-Typst-Template/tree/main/examples/report)
+- For Bachelor  theses see: [Bachelor thesis example](https://github.com/SimonJohannesEngelhardt/HSRM-Typist-Template/tree/main/examples/bachelor-thesis)
+- For Master theses see: [Master thesis example](https://github.com/SimonJohannesEngelhardt/HSRM-Typist-Template/tree/main/examples/master-thesis)
+- For reports see: [Report example](https://github.com/SimonJohannesEngelhardt/HSRM-Typist-Template/tree/main/examples/report)

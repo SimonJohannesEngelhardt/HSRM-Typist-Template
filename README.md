@@ -1,4 +1,4 @@
-# HAW Hamburg Typst Template
+# Hochschule Rhein Main Typst Template
 
 This is an **`unofficial`** template for writing a report or thesis in the `HSRM` department of `Computer Science` design using [Typst](https://github.com/typst/typst).
 
@@ -92,8 +92,8 @@ These problems can be avoided by following these steps:
 
 ## Examples
 
-Examples can be found inside of the [examples](https://github.com/LasseRosenow/HAW-Hamburg-Typst-Template/tree/main/examples) directory
+Examples can be found inside of the [examples](https://github.com/SimonJohannesEngelhardt/HSRM-Typist-Template/tree/main/examples) directory
 
-- For Bachelor  theses see: [Bachelor thesis example](https://github.com/LasseRosenow/HAW-Hamburg-Typst-Template/tree/main/examples/bachelor-thesis)
-- For Master theses see: [Master thesis example](https://github.com/LasseRosenow/HAW-Hamburg-Typst-Template/tree/main/examples/master-thesis)
-- For reports see: [Report example](https://github.com/LasseRosenow/HAW-Hamburg-Typst-Template/tree/main/examples/report)
+- For Bachelor  theses see: [Bachelor thesis example](https://github.com/SimonJohannesEngelhardt/HSRM-Typist-Template/tree/main/examples/bachelor-thesis)
+- For Master theses see: [Master thesis example](https://github.com/SimonJohannesEngelhardt/HSRM-Typist-Template/tree/main/examples/master-thesis)
+- For reports see: [Report example](https://github.com/SimonJohannesEngelhardt/HSRM-Typist-Template/tree/main/examples/report)

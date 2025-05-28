@@ -57,9 +57,9 @@
     en: "at the Faculty of",
     de: "der Fakultät",
   ),
-  at-university-of-applied-science-hamburg: value(
-    en: "at University of Applied Science Hamburg",
-    de: "der Hochschule für Angewandte Wissenschaften Hamburg",
+  at-university-of-applied-science-wiesbaden: value(
+    en: "at University of Applied Science Wiesbaden",
+    de: "der Hochschule für Angewandte Wissenschaften Wiesbaden",
   ),
   supervising-examiner: value(
     en: "Supervising examiner",

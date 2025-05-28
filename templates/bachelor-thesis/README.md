@@ -1,6 +1,6 @@
 # HSRM Unoffial Typst Template
 
-This is an **`unofficial`** template for writing a bachelor thesis in the `HAW Hamburg` department of `Computer Science` design using [Typst](https://github.com/typst/typst).
+This is an **`unofficial`** template for writing a bachelor thesis in the `Hochschule Rhein Main` department of `Computer Science` design using [Typst](https://github.com/typst/typst).
 
 ## Required Fonts
 
@@ -11,7 +11,7 @@ To correctly render this template please make sure that the `New Computer Modern
 To use this package just add the following code to your [Typst](https://github.com/typst/typst) document:
 
 ```typst
-#import "@preview/haw-hamburg:0.5.1": bachelor-thesis
+#import "@preview/hsrm-unofficial-template:0.6.0": bachelor-thesis
 
 #show: bachelor-thesis.with(
   language: "en",

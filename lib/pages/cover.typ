@@ -159,7 +159,7 @@
         },
         text(translations.in-the-study-course + " " + text(study-course, style: "italic")),
         text(translations.at-the-faculty-of + " " + faculty),
-        text(translations.at-university-of-applied-science-hamburg),
+        text(translations.at-university-of-applied-science-wiesbaden),
       ),
 
       v(4mm),
