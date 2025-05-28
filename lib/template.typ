@@ -193,6 +193,13 @@
     )
   }
 
+  // Declaration of independent processing
+  if include-declaration-of-independent-processing {
+    pagebreak(weak: true)
+    import "pages/declaration_of_independent_processing.typ": declaration_of_independent_processing
+    declaration_of_independent_processing(submission-date: submission-date)
+  }
+
   // Table of contents.
   import "pages/outline.typ": outline_page
   outline_page()
@@ -222,11 +229,4 @@
   set par(justify: true)
 
   body
-
-  // Declaration of independent processing
-  if include-declaration-of-independent-processing {
-    pagebreak(weak: true)
-    import "pages/declaration_of_independent_processing.typ": declaration_of_independent_processing
-    declaration_of_independent_processing()
-  }
 }

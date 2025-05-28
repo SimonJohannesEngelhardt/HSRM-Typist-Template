@@ -91,12 +91,26 @@
   ),
   declaration-of-independent-processing: value(
     en: "Declaration of Independent Processing",
-    de: "Erklärung zur selbstständigen Bearbeitung",
+    de: "Eigenständigkeitserklärung",
   ),
   declaration-of-independent-processing-content: value(
-    en: "I hereby certify that I wrote this work independently without any outside help and only used the resources specified. Passages taken literally or figuratively from other works are identified by citing the sources.",
-    de: "Hiermit versichere ich, dass ich die vorliegende Arbeit ohne fremde Hilfe selbständig verfasst und nur die angegebenen Hilfsmittel benutzt habe. Wörtlich oder dem Sinn
-nach aus anderen Werken entnommene Stellen sind unter Angabe der Quellen kenntlich gemacht.",
+    en: "I confirm that I have written this thesis independently and have not used any sources or aids other than those specified.
+
+I am responsible for the quality of the content, which I have substantiated or supported with suitable scientific sources. I have clearly labelled the texts, ideas, concepts, graphics, technical content and the like taken directly or indirectly from external sources in my explanations and have provided complete references to the respective source. All other contents of this work (text sections, illustrations, tables, etc.) without corresponding references are mine in the sense of copyright law.
+
+I am aware that AI-generated content may be incorrect. I therefore affirm that I have only used AI tools as an aid and that my creative influence predominates in this work. I am responsible for the adoption of any AI-generated content
+AI-generated content used by me. 
+
+This thesis has not been submitted in the same or a similar form to any other examination authority in Germany or abroad. I am aware that a violation of the above points may be considered an attempt to cheat and may have consequences under examination law. In particular, it may result in the examination being failed and, in the event of multiple or serious attempts at cheating, exmatriculation may be threatened.",
+
+    de: "Ich versichere, dass ich die vorliegende Arbeit selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe.
+
+Ich bin verantwortlich für die Qualität des Inhalts, den ich mit geeigneten wissenschaftlichen Quellen belegt bzw. gestützt habe. Die aus fremden Quellen direkt oder indirekt übernommenen Texte, Gedankengänge, Konzepte, Grafiken, technischen Inhalte und ähnliches in meinen Ausführungen habe ich eindeutig gekennzeichnet und mit vollständigen Verweisen auf die jeweilige Quelle versehen. Alle weiteren Inhalte dieser Arbeit (Textteile,Abbildungen, Tabellen etc.) ohne entsprechende Verweise stammen im urheberrechtlichen Sinn von mir.
+
+Ich bin mir bewusst, dass KI-generierte Inhalte falsch sein können. Ich versichere daher, dass ich KI-Tools lediglich als Hilfsmittel verwendet habe und in der vorliegenden Arbeit mein gestalterischer Einfluss überwiegt. Ich verantworte die Übernahme jeglicher von mir
+verwendeter KI-generierter Inhalte vollumfänglich selbst. 
+
+Die vorliegende Arbeit wurde bisher weder im In- noch im Ausland in gleicher oder ähnlicher Form einer anderen Prüfungsbehörde vorgelegt. Mir ist bekannt, dass ein Verstoß gegen die genannten Punkte als Täuschungsversuch gelten und prüfungsrechtliche Konsequenzen haben kann. Insbesondere kann es dazu führen, dass die Leistung nicht bestanden ist und dass bei mehrfachem oder schwerwiegendem Täuschungsversuch eine Exmatrikulation droht.",
   ),
   place: value(
     en: "Place",
@@ -110,4 +124,12 @@ nach aus anderen Werken entnommene Stellen sind unter Angabe der Quellen kenntli
     en: "Original Signature",
     de: "Unterschrift im Original",
   ),
+  glossary: value(
+    en: "Glossary",
+    de: "Glossar",
+  ),
+  bibliography: value(
+    en: "Bibliography",
+    de: "Bibliographie"
+  )
 )

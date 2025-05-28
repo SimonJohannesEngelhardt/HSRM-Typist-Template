@@ -1,5 +1,6 @@
 // Import dependencies such as glossaries etc.
 #import "dependencies.typ": *
+#import "../../lib/translations.typ": translations
 
 // Take a look at the file `template.typ` in the file panel
 // to customize this template and discover how it works.
@@ -54,9 +55,9 @@ ero, nonummy eget, consectetuer id, vulputate a, magna.",
 #pagebreak(weak: true)
 #{
   set heading(numbering: none)
-  glossary(title: "Glossary", groups: "")
+  glossary(title: translations.glossary, groups: "")
 }
 
 // Print bibliography
 #pagebreak(weak: true)
-#bibliography("bibliography.bib", style: "../../lib/assets/ieeetran.csl")
+#bibliography("bibliography.bib", style: "../../lib/assets/ieeetran.csl", title: translations.bibliography)

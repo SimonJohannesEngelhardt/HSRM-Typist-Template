@@ -42,7 +42,7 @@
         // Faculty
         text(translations.faculty-of + " " + faculty, size: 12pt),
         text(translations.study-course + " " + study-course, size: 12pt),
-        v(10mm),
+        v(8mm),
         // Type
         if is-thesis {
           let thesis-title = translations.bachelor-thesis
@@ -50,7 +50,6 @@
             thesis-title = translations.master-thesis
           }
           text(thesis-title, size: 12pt, weight: "bold")
-          v(2mm)
         },
         text(translations.bachelor-thesis-to-get-bsc, size: 12pt),
         // Author

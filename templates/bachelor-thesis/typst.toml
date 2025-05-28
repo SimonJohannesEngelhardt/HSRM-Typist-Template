@@ -1,5 +1,5 @@
 [package]
-name = "haw-hamburg-bachelor-thesis"
+name = "hsrm-bachelor-thesis"
 entrypoint = "lib.typ"
 description = "Unofficial template for writing a bachelor-thesis in the HAW Hamburg department of Computer Science design."
 categories = ["thesis"]

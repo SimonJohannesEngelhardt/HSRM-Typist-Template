@@ -1,8 +1,8 @@
 [package]
-name = "haw-hamburg-report"
+name = "hsrm-report"
 entrypoint = "lib.typ"
-description = "Unofficial template for writing a report in the HAW Hamburg department of Computer Science design."
-categories = ["report"]
+description = "Unofficial template for writing a bachelor-thesis in the HAW Hamburg department of Computer Science design."
+categories = ["thesis"]
 
 [template]
 path = "src"

@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.6.0
+Forked project to be used for Hochschule Rhein Main
+
 ## 0.5.1
 
 - Remove leftover deprecated use of `fill` and `indent: true` inside the outline
