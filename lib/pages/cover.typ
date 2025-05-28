@@ -91,6 +91,7 @@
       dx: 18mm,
       dy: 240mm,
       stack(
+        spacing: 4pt,
         // Submission date
         if submission-date != none {
           text(translations.submitted + ": " + submission-date.display("[day]. [month repr:long] [year]"))
@@ -101,15 +102,24 @@
         // Supervision
         if supervisors.len() > 0 and type(supervisors) != array {
           text(translations.supervising-examiner + ": " + text(upper(supervisors)))
+          if external-supervisor.len() > 0 {
+            linebreak()
+            text(translations.external-supervisor + ": " + text(upper(external-supervisor)), size: 10pt)
+          }
         } else if supervisors.len() > 0 {
           stack(
             text(translations.supervising-examiner + ": " + text(supervisors.first())),
             if supervisors.len() > 1 {
-              v(10pt)
+              linebreak()
               text(translations.second-examiner + ": " + text(supervisors.at(1)))
+            },
+            if external-supervisor.len() > 0 {
+              linebreak()
+              text(translations.external-supervisor + ": " + text(external-supervisor))
             },
           )
         },
+      
       ),
     )
   }

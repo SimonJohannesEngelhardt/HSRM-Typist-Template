@@ -46,6 +46,7 @@ To use this package just add the following code to your [Typst](https://github.c
   department: "Computer Science",
   study-course: "Bachelor of Science Informatik Technischer Systeme",
   supervisors: ("Prof. Dr. Example", "Prof. Dr. Example"),
+  external-supervisor: "Herr Example",
   submission-date: datetime(year: 1948, month: 12, day: 10),
   include-declaration-of-independent-processing: true,
 )

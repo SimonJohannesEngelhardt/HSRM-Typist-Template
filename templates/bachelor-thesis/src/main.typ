@@ -25,6 +25,7 @@ ero, nonummy eget, consectetuer id, vulputate a, magna.",
   department: "Computer Science",
   study-course: "Bachelor of Science Informatik Technischer Systeme",
   supervisors: ("Prof. Dr. Example", "Prof. Dr. Example"),
+  external-supervisor: "Herr Example",
   submission-date: datetime(year: 1948, month: 12, day: 10),
   include-declaration-of-independent-processing: true,
 )

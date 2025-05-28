@@ -18,7 +18,7 @@
   faculty: "",
   department: "",
   study-course: "",
-  supervisors: (),
+  supervisors: "",
   external-supervisor: "",
   submission-date: none,
   include-declaration-of-independent-processing: false,

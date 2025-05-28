@@ -11,6 +11,8 @@
   faculty: "Engineering and Computer Science",
   department: "Computer Science",
   supervisors: ("Prof. Dr. Example", "Prof. Dr. Example"),
+  external-supervisor: "Herr Example",
+  
   submission-date: datetime(year: 1948, month: 12, day: 10),
   include-declaration-of-independent-processing: true,
 )
